@@ -623,7 +623,7 @@ const HomePage = () => {
           </div>
           <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2026 Mais Negócios.IA. Todos os direitos reservados.
+              © 2026 Mais Negócios.IA. Todos os direitos reservados a Insight2Growth.
             </p>
             <p className="text-muted-foreground text-sm">
               Feito para quem trabalha de verdade.
