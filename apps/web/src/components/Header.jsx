@@ -33,7 +33,7 @@ const Header = ({ onNavigate }) => {
             <img 
               src="https://horizons-cdn.hostinger.com/14507c7f-7987-4663-b20d-1be1e236425f/d5fe986f594fe4ec577fe5cf6c49d534.png" 
               alt="Mais Negócios.IA logo"
-              className="h-36 sm:h-40 lg:h-48 w-auto"
+              className={`h-36 sm:h-40 lg:h-48 w-auto transition-all duration-300 ${isScrolled ? 'brightness-0' : ''}`}
             />
           </Link>
 
@@ -51,7 +51,7 @@ const Header = ({ onNavigate }) => {
             <button onClick={() => scrollToSection('contato')} className={`font-medium transition-colors hover:text-primary ${isScrolled ? 'text-foreground' : 'text-white'}`}>
               Contato
             </button>
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-6 py-2.5 rounded-full font-semibold hover:bg-primary/90 transition-all active:scale-[0.98]">
+            <a href="https://wa.me/552139552298" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-6 py-2.5 rounded-full font-semibold hover:bg-primary/90 transition-all active:scale-[0.98]">
               Quero crescer agora
             </a>
           </div>
@@ -79,7 +79,7 @@ const Header = ({ onNavigate }) => {
             <button onClick={() => scrollToSection('contato')} className="block w-full text-left font-medium text-foreground hover:text-primary transition-colors">
               Contato
             </button>
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="block w-full bg-primary text-primary-foreground px-6 py-3 rounded-full font-semibold text-center hover:bg-primary/90 transition-all active:scale-[0.98]">
+            <a href="https://wa.me/552139552298" target="_blank" rel="noopener noreferrer" className="block w-full bg-primary text-primary-foreground px-6 py-3 rounded-full font-semibold text-center hover:bg-primary/90 transition-all active:scale-[0.98]">
               Quero crescer agora
             </a>
           </div>

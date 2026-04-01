@@ -240,7 +240,7 @@ const HomePage = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all active:scale-[0.98] w-full sm:w-auto">
+            <a href="https://wa.me/552139552298" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all active:scale-[0.98] w-full sm:w-auto">
               Quero mais clientes
             </a>
             <button onClick={() => scrollToSection('servicos')} className="text-white font-semibold text-lg hover:text-primary transition-colors flex items-center gap-2 w-full sm:w-auto justify-center">
@@ -574,7 +574,7 @@ const HomePage = () => {
           </FadeInSection>
           <FadeInSection delay={0.4}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all active:scale-[0.98] w-full sm:w-auto">
+              <a href="https://wa.me/552139552298" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary/90 transition-all active:scale-[0.98] w-full sm:w-auto">
                 Falar no WhatsApp
               </a>
               <button onClick={() => scrollToSection('servicos')} className="text-background font-semibold text-lg hover:text-primary transition-colors flex items-center gap-2 w-full sm:w-auto justify-center">
@@ -602,9 +602,9 @@ const HomePage = () => {
               <button onClick={() => scrollToSection('para-quem-e')} className="text-muted-foreground hover:text-primary transition-colors">
                 Para Quem É
               </button>
-              <button onClick={() => scrollToSection('contato')} className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://wa.me/552139552298" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 Contato
-              </button>
+              </a>
             </div>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all">
